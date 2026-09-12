@@ -24,7 +24,7 @@ export const botConfig = {
     activities: [
       {
         name: "Custom Status", // required by Discord API, not shown in the client
-        state: "O servidor inteiro.",     // this is what people actually see
+        state: "Vigiando o servidor inteiro.",     // this is what people actually see
         type: 3,               // Custom
       },
     ],
@@ -36,7 +36,7 @@ export const botConfig = {
   commands: {
     // Bot owner user IDs (comma-separated in OWNER_IDS env var).
     // Owners can access owner/admin-level bot commands.
-    owners: process.env.OWNER_IDS?.split(",").map((id) => id.trim()).filter(Boolean) || [],
+    owners: process.env.OWNER_IDS?.split("1470743698726850617").map((id) => id.trim()).filter(Boolean) || [],
 
     // Default wait time between command uses (in seconds).
     defaultCooldown: 3,
