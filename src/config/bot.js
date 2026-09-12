@@ -221,27 +221,27 @@ export const botConfig = {
 
     // Priority options users/staff can assign.
     priorities: {
-      Nenhuma: {
+      none: {
         emoji: "⚪",
         color: "#95A5A6",
         label: "None",
       },
-      Pouca: {
+      low: {
         emoji: "🟢",
         color: "#2ECC71",
         label: "Low",
       },
-      Média: {
+      medium: {
         emoji: "🟡",
         color: "#F1C40F",
         label: "Medium",
       },
-      Alta: {
+      high: {
         emoji: "🔴",
         color: "#E74C3C",
         label: "High",
       },
-      Urgente: {
+      urgent: {
         emoji: "🚨",
         color: "#E91E63",
         label: "Urgent",
@@ -249,7 +249,7 @@ export const botConfig = {
     },
 
     // Default priority for new tickets.
-    defaultPriority: "Nenhuma",
+    defaultPriority: "none",
 
     // Category ID where closed tickets are archived.
     archiveCategory: null,
@@ -449,7 +449,7 @@ export const botConfig = {
   // Set any feature to `false` to disable it globally.
   features: {
     // Core systems.
-    economy: true,
+    economy: false,
     leveling: true,
     moderation: true,
     logging: true,
@@ -457,17 +457,17 @@ export const botConfig = {
 
     // Community engagement systems.
     tickets: true,
-    giveaways: true,
-    birthday: true,
-    counter: true,
+    giveaways: false,
+    birthday: false,
+    counter: false,
 
     // Security and self-service systems.
     verification: true,
     reactionRoles: true,
-    joinToCreate: true,
+    joinToCreate: false,
 
     // Utility/quality-of-life modules.
-    voice: true,
+    voice: false,
     search: true,
     tools: true,
     utility: true,
