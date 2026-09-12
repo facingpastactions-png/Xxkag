@@ -214,34 +214,34 @@ export const botConfig = {
   // =========================
   tickets: {
     // Category ID where new tickets are created (null = no forced category).
-    defaultCategory: null,
+    defaultCategory: 1548391200783073360,
 
     // Role IDs allowed to manage/support tickets.
     supportRoles: [],
 
     // Priority options users/staff can assign.
     priorities: {
-      none: {
+      Nenhuma: {
         emoji: "⚪",
         color: "#95A5A6",
         label: "None",
       },
-      low: {
+      Pouca: {
         emoji: "🟢",
         color: "#2ECC71",
         label: "Low",
       },
-      medium: {
+      Média: {
         emoji: "🟡",
         color: "#F1C40F",
         label: "Medium",
       },
-      high: {
+      Alta: {
         emoji: "🔴",
         color: "#E74C3C",
         label: "High",
       },
-      urgent: {
+      Urgente: {
         emoji: "🚨",
         color: "#E91E63",
         label: "Urgent",
@@ -249,7 +249,7 @@ export const botConfig = {
     },
 
     // Default priority for new tickets.
-    defaultPriority: "none",
+    defaultPriority: "Nenhuma",
 
     // Category ID where closed tickets are archived.
     archiveCategory: null,
