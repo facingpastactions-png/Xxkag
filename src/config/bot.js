@@ -25,7 +25,7 @@ export const botConfig = {
       {
         name: "Existindo.", // required by Discord API, not shown in the client
         state: "Vigiando o servidor inteiro.",     // this is what people actually see
-        type: 3,               // Custom
+        type: 4,               // Custom
       },
     ],
   },
